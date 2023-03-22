@@ -39,6 +39,10 @@ Tie.init(
             type: DataTypes.STRING,
             allownull: false,
         },
+        quantity: {
+            type: DataTypes.INTEGER,
+            allownull: false,
+        },
     },
     {
         sequelize,

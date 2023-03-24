@@ -1,8 +1,13 @@
-const router = require('express').Router();
-const userRoutes = require('./userRoutes');
-const projectRoutes = require('./projectRoutes');
+const express = require('express');
+const router = express.Router();
 
-router.use('/users', userRoutes);
-router.use('/projects', projectRoutes);
+const shirtRoutes = require('./shirtRoutes');
+const pantsRoutes = require('./pantsRoutes');
+const shoesRoutes = require('./shoesRoutes');
+
+router.use('/shirts', shirtRoutes);
+router.use('/pants', pantsRoutes);
+router.use('/shoes', shoesRoutes);
 
 module.exports = router;
+

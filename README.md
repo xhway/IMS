@@ -35,13 +35,13 @@ Darius, Reggie, Anicet, Valerie.
 # Questions
 If you have any questions, please feel free to contact us:
 
+Github Profile: https://github.com/rulysse11
+
 GitHub Profile: https://github.com/valeriecalle
 
-Github Profile:
+Github Profile: https://github.com/RenanLodi
 
-Github Profile:
-
-Github Profile:
+Github Profile: https://github.com/xhway
 
 Email: valerie.calle@icloud.com
 

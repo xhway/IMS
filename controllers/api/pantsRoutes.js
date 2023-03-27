@@ -1,13 +1,45 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
+const { Pants } = require('../../models');
+const withAuth = require('../../utils/auth');
 
-const Pants = require('../models/Pants');
+router.post('/', withAuth, async (req, res) => {
+    try {
+        const newPants = await Pants.create({
+            ...req.body
+        });
+        res.status(200).json(newPants);
+    } catch (err) {
+        res.status(400).json(err);
+    }
+});
 
-router.get('/', async (req, res) => {
-  try {
-    const pants = await Pants.find();
-    res.json(shirts);
-  } catch (err) {
-    res.status(500).json({ message: err.message });
-  }
+router.delete('/:sku', withAuth, async (req, res) => {
+    try {
+        const pantsData = await Pants.destroy({
+            where: {
+                sku: req.params.sku,
+            },
+        });
+        if (!pantsData) {
+            res.status(404).json({ message: 'No item found with that sku' });
+        }
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+router.put('/:sku', withAuth, async (req, res) => {
+    try {
+        const pantsData = await Pants.update({quantity: req.body.quantity,
+            where: {
+                sku: req.params.sku,
+            },
+        });
+        if (!pantsData) {
+            res.status(404).json({ message: 'No item found with that sku' });
+        }
+    } catch (err) {
+        res.status(500).json(err);
+    }
+
 });

@@ -1,0 +1,62 @@
+[
+    {
+        "sku":"0040",
+        "color":"black",
+        "fit":"slim",
+        "waist":"32",
+        "length":"32",
+        "brand":"Perry Ellis",
+        "description":"Slim black dress pants",
+        "quantity":"12"
+
+
+    },
+    {
+        "sku":"0041",
+        "color":"blue",
+        "fit":"slim",
+        "waist":"32",
+        "length":"34",
+        "brand":"Perry Ellis",
+        "description":"Slim blue dress pants",
+        "quantity":"12"
+
+
+    },
+    {
+        "sku":"0042",
+        "color":"grey",
+        "fit":"slim",
+        "waist":"34",
+        "length":"34",
+        "brand":"Brooks Brothers",
+        "description":"Slim grey dress pants",
+        "quantity":"6"
+
+
+    },
+    {
+        "sku":"0043",
+        "color":"black",
+        "fit":"regular",
+        "waist":"36",
+        "length":"34",
+        "brand":"Brooks Brothers",
+        "description":"Regular fit black pants",
+        "quantity":"4"
+
+
+    },
+    {
+        "sku":"0044",
+        "color":"blue",
+        "fit":"regular",
+        "waist":"33",
+        "length":"32",
+        "brand":"Ralph Lauren",
+        "description":"Regular fit blue pants",
+        "quantity":"8"
+
+
+    }
+]

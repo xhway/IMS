@@ -30,7 +30,7 @@ router.delete('/:sku', withAuth, async (req, res) => {
 
 router.put('/:sku', withAuth, async (req, res) => {
     try {
-        const jacketData = await Jacket.update({
+        const jacketData = await Jacket.update({quantity: req.body.quantity,
             where: {
                 sku: req.params.sku,
             },

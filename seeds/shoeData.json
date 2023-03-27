@@ -1,0 +1,66 @@
+[
+    {
+        "sku":"0011",
+        "color":"Black",
+        "size": "9",
+        "brand":"Stacy Adams",
+        "description":"Black leather dress shoes",
+        "quantity":"16"
+    },
+    {
+        "sku":"0012",
+        "color":"Black",
+        "size": "10",
+        "brand":"Perry Ellis",
+        "description":"Black leather dress shoes",
+        "quantity":"12"
+    },
+    {
+        "sku":"0013",
+        "color":"Black",
+        "size": "11",
+        "brand":"Stacy Adams",
+        "description":"Black leather dress shoes",
+        "quantity":"10"
+    },
+    {
+        "sku":"0014",
+        "color":"Black",
+        "size": "12",
+        "brand":"Perry Ellis",
+        "description":"Black leather dress shoes",
+        "quantity":"8"
+    },
+    {
+        "sku":"0015",
+        "color":"Brown",
+        "size": "9",
+        "brand":"Perry Ellis",
+        "description":"Brown leather dress shoes",
+        "quantity":"6"
+    },
+    {
+        "sku":"0016",
+        "color":"Brown",
+        "size": "10",
+        "brand":"Stacy Adams",
+        "description":"Brown leather dress shoes",
+        "quantity":"11"
+    },
+    {
+        "sku":"0011",
+        "color":"Brown",
+        "size": "11",
+        "brand":"Stacy Adams",
+        "description":"Brown leather dress shoes",
+        "quantity":"4"
+    },
+    {
+        "sku":"0011",
+        "color":"Brown",
+        "size": "12",
+        "brand":"Perry Ellis",
+        "description":"Brown leather dress shoes",
+        "quantity":"9"
+    }
+]

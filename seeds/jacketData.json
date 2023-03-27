@@ -1,0 +1,64 @@
+[
+{
+    "sku":" 0001",
+    "color": "black",
+    "fit":"slim",
+    "chest_size":"42",
+    "arm_length":"32",
+    "brand":"Armani",
+    "description":"Simple black blazer",
+    "quantity": "12"
+},
+{
+    "sku":" 0002",
+    "color": "blue",
+    "fit":"slim",
+    "chest_size":"42",
+    "arm_length":"32",
+    "brand":"Armani",
+    "description":"Slim blue blazer",
+    "quantity": "10"
+
+
+},
+{
+    "sku":" 0003",
+    "color": "grey",
+    "fit":"slim",
+    "chest_size":"42",
+    "arm_length":"34",
+    "brand":"Brooks Brothers",
+    "description":"Slim grey blazer",
+    "quantity": "6"   
+},
+{
+    "sku":" 0004",
+    "color": "black",
+    "fit":"regular",
+    "chest_size":"44",
+    "arm_length":"34",
+    "brand":"Brooks Brothers",
+    "description":"Regular fit black blazer",
+    "quantity": "12"
+    
+
+},
+{   "sku":" 0005",
+    "color": "blue",
+    "fit":"regular",
+    "chest_size":"42",
+    "arm_length":"33",
+    "brand":"Armani",
+    "description":"Regular fit blue blazer",
+    "quantity": "10"
+},
+{
+    "sku":" 0006",
+    "color": "grey",
+    "fit":"regular",
+    "chest_size":"42",
+    "arm_length":"33",
+    "brand":"Brooks Brothers",
+    "description":"Regular fit grey blazer",
+    "quantity": "4"  
+}]

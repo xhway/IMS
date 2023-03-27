@@ -1,0 +1,52 @@
+[
+    {
+        "sku":"0030",
+        "color":"Black",
+        "fit":"slim",
+        "neck_size":"15",
+        "arm_length":"34",
+        "brand":"Perry Ellis",
+        "description":"Slim black button down shirt",
+        "quantity":"15"
+    },
+    {
+        "sku":"0031",
+        "color":"White",
+        "fit":"slim",
+        "neck_size":"15",
+        "arm_length":"36",
+        "brand":"Perry Ellis",
+        "description":"Slim white button down shirt",
+        "quantity":"10"
+    },
+    {
+        "sku":"0032",
+        "color":"Blue",
+        "fit":"slim",
+        "neck_size":"15",
+        "arm_length":"34",
+        "brand":"Ralph Lauren",
+        "description":"Slim blue button shirt",
+        "quantity":"8"
+    },
+    {
+        "sku":"0033",
+        "color":"Grey",
+        "fit":"slim",
+        "neck_size":"15",
+        "arm_length":"34",
+        "brand":"Ralph Lauren",
+        "description":"Slim grey button down shirt",
+        "quantity":"15"
+    },
+    {
+        "sku":"0034",
+        "color":"Red",
+        "fit":"regular",
+        "neck_size":"14.5",
+        "arm_length":"34",
+        "brand":"Perry Ellis",
+        "description":"Regular fit red button down shirt",
+        "quantity":"6"
+    }
+]

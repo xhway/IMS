@@ -1,0 +1,49 @@
+[
+    {
+        "sku":"0020",
+        "color":"black",
+        "type":"regular",
+        "brand":"Perry Ellis",
+        "description":"Solid black tie",
+        "quantity":"15"
+    },
+    {
+        "sku":"0021",
+        "color":"black",
+        "type":"bow tie",
+        "brand":"Jos A. Bank",
+        "description":"Solid black bow tie",
+        "quantity":"12"
+    },
+    {
+        "sku":"0022",
+        "color":"blue",
+        "type":"regular",
+        "brand":"Perry Ellis",
+        "description":"Solid blue tie",
+        "quantity":"10"
+    },
+    {
+        "sku":"0022",
+        "color":"blue",
+        "type":"bow tie",
+        "brand":"Perry Ellis",
+        "description":"Solid blue bow tie",
+        "quantity":"8"
+    },
+    {
+        "sku":"0022",
+        "color":"grey",
+        "type":"regular tie",
+        "brand":"Jos A. Bank",
+        "description":"Solid grey tie",
+        "quantity":"11"
+    },   {
+        "sku":"0022",
+        "color":"grey",
+        "type":"regular tie",
+        "brand":"Perry Ellis",
+        "description":"Solid grey tie",
+        "quantity":"11"
+    }
+]

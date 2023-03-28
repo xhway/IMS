@@ -1,6 +1,6 @@
 [
 {
-    "sku":" 0001",
+    "sku":"0001",
     "color": "black",
     "fit":"slim",
     "chest_size":"42",
@@ -10,7 +10,7 @@
     "quantity": "12"
 },
 {
-    "sku":" 0002",
+    "sku":"0002",
     "color": "blue",
     "fit":"slim",
     "chest_size":"42",
@@ -22,7 +22,7 @@
 
 },
 {
-    "sku":" 0003",
+    "sku":"0003",
     "color": "grey",
     "fit":"slim",
     "chest_size":"42",
@@ -32,7 +32,7 @@
     "quantity": "6"   
 },
 {
-    "sku":" 0004",
+    "sku":"0004",
     "color": "black",
     "fit":"regular",
     "chest_size":"44",
@@ -43,7 +43,7 @@
     
 
 },
-{   "sku":" 0005",
+{   "sku":"0005",
     "color": "blue",
     "fit":"regular",
     "chest_size":"42",
@@ -53,7 +53,7 @@
     "quantity": "10"
 },
 {
-    "sku":" 0006",
+    "sku":"0006",
     "color": "grey",
     "fit":"regular",
     "chest_size":"42",

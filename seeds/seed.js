@@ -37,9 +37,9 @@ const seedDatabase = async () => {
     });
   }
 
-  for (const shoe of shirtData) {
+  for (const shoes of shoeData) {
     await Shoes.create({
-      ...shoe,
+      ...shoes,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
   }

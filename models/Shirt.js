@@ -31,7 +31,7 @@ Shirt.init(
             type: DataTypes.INTEGER,
             allownull: false,
             validate: {
-                isNumerc: true,
+                isNumeric: true,
             }
         },
         arm_length: {
@@ -44,9 +44,6 @@ Shirt.init(
         brand: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
         },
         description: {
             type: DataTypes.STRING,

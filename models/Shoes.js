@@ -24,15 +24,12 @@ Shoes.init(
             type: DataTypes.INTEGER,
             allownull: false,
             validate: {
-                isNumerc: true,
+                isNumeric: true,
             }
         },
         brand: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
         },
         description: {
             type: DataTypes.STRING,

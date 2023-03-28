@@ -31,7 +31,7 @@ Pants.init(
             type: DataTypes.INTEGER,
             allownull: false,
             validate: {
-                isNumerc: true,
+                isNumeric: true,
             }
         },
         length: {
@@ -44,9 +44,6 @@ Pants.init(
         brand: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
         },
         description: {
             type: DataTypes.STRING,

@@ -3,7 +3,7 @@
 
 ## Table of Contents
 * [What is IMS?](#What is IMS?)
-* [ Why choose IMS?](#Why choose IMS?)
+* [Why choose IMS?](#Why choose IMS?)
 * [License](#license)
 * [Contributing](*Contributing)
 * [Preview](*Preview)
@@ -49,7 +49,7 @@ Email: dhway20@gmail.com
 
 Email: reggieulysse@gmail.com
 
-Email: missing anicet email
+Email: ndamanicet55@gmail.com
 
 <img width="20%" alt="Screenshot 2023-03-23 at 8 53 49 PM" src="https://user-images.githubusercontent.com/101648427/227396913-f909b65c-bfc4-4fa1-bd1c-4e98ca1f9b37.png">
 

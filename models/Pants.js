@@ -1,5 +1,4 @@
 const { Model, DataTypes } = require('sequelize')
-const { DataTypes } = require('sequelize/types')
 const sequelize = require('../config/connection')
 
 class Pants extends Model {}
@@ -32,7 +31,7 @@ Pants.init(
             type: DataTypes.INTEGER,
             allownull: false,
             validate: {
-                isNumerc: true,
+                isNumeric: true,
             }
         },
         length: {
@@ -45,9 +44,6 @@ Pants.init(
         brand: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
         },
         description: {
             type: DataTypes.STRING,

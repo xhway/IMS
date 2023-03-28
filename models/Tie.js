@@ -1,5 +1,4 @@
 const { Model, DataTypes } = require('sequelize')
-const { DataTypes } = require('sequelize/types')
 const sequelize = require('../config/connection')
 
 class Tie extends Model {}
@@ -31,9 +30,6 @@ Tie.init(
         brand: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
         },
         description: {
             type: DataTypes.STRING,

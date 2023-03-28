@@ -5,7 +5,8 @@ const withAuth = require('../../utils/auth');
 router.post('/', withAuth, async (req, res) => {
     try {
         const newJacket = await Jacket.create({
-            ...req.body
+            ...req.body,
+            user_id: req.session.user_id,
         });
         res.status(200).json(newJacket);
     } catch (err) {
@@ -30,7 +31,7 @@ router.delete('/:sku', withAuth, async (req, res) => {
 
 router.put('/:sku', withAuth, async (req, res) => {
     try {
-        const jacketData = await Jacket.update({quantity: req.body.quantity,
+        const jacketData = await Jacket.update({
             where: {
                 sku: req.params.sku,
             },

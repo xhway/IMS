@@ -23,9 +23,7 @@ Tie.init(
         type: {
             type: DataTypes.STRING,
             allownull: false,
-            validate: {
-                isAlpha: true,
-            }
+       
         },
         brand: {
             type: DataTypes.STRING,

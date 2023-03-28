@@ -1,10 +1,10 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
+
 
 const jacketRoutes = require('./jacketRoutes');
 const pantsRoutes = require('./pantsRoutes');
 const shirtRoutes = require('./shirtRoutes');
-const shoesRoutes = require('./shoesRoutes');
+const shoesRoutes = require('./shoeRoutes');
 const tieRoutes = require('./tieRoutes');
 
 router.use('/jacket', jacketRoutes);

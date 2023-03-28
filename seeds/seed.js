@@ -6,6 +6,7 @@ const pantsData = require('./pantsData.json');
 const shoeData = require('./shoeData.json');
 const jacketData = require('./jacketData.json');
 const tieData = require('./tieData.json');
+const userData = require('./userData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });

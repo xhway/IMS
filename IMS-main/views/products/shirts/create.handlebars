@@ -1,0 +1,46 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+    <div class="w-users-usersignupformwrapper admin-form-card">
+        <form class="{{#if shirt.sku}}shirt-edit-form{{else}}shirt-create-form{{/if}}">
+            <div class="w-users-userformheader form-card-header">
+                <h2 class="heading h3">
+                    {{#if shirt.sku}}
+                    Update
+                    {{else}}
+                    Create
+                    {{/if}}
+                    shirt</h2>
+            </div>
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Sku" id="create-shirt-sku" {{#if
+                shirt.sku}}disabled{{else}}required="" {{/if}} value="{{shirt.sku}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Color" id="create-shirt-color" required=""
+                value="{{shirt.color}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Fit" id="create-shirt-fit" required=""
+                value="{{shirt.fit}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Neck Size" id="create-shirt-neck-size" required=""
+                value="{{shirt.neck_size}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Arm Length" id="create-shirt-arm-length"
+                required="" value="{{shirt.arm_length}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Brand" id="create-shirt-brand" required=""
+                value="{{shirt.brand}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Description" id="create-shirt-description"
+                required="" value="{{shirt.description}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Quantity" id="create-shirt-quantity" required=""
+                value="{{shirt.quantity}}">
+            <input type="submit" value="{{#if shirt.sku}}Update{{else}}Create{{/if}}" data-wait="Please wait..."
+                class="w-users-userformbutton button w-button">
+            <div class="w-users-userformfooter form-card-footer">
+                <a href="/products/shirts">Return</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/products/shirts.js"></script>

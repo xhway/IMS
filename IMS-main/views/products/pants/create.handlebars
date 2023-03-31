@@ -1,0 +1,46 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+    <div class="w-users-usersignupformwrapper admin-form-card">
+        <form class="{{#if pant.sku}}pant-edit-form{{else}}pant-create-form{{/if}}">
+            <div class="w-users-userformheader form-card-header">
+                <h2 class="heading h3">
+                    {{#if pant.sku}}
+                    Update
+                    {{else}}
+                    Create
+                    {{/if}}
+                    pant</h2>
+            </div>
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Sku" id="create-pant-sku" {{#if
+                pant.sku}}disabled{{else}}required="" {{/if}} value="{{pant.sku}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Color" id="create-pant-color" required=""
+                value="{{pant.color}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Fit" id="create-pant-fit" required=""
+                value="{{pant.fit}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Waist" id="create-pant-waist" required=""
+                value="{{pant.waist}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Length" id="create-pant-length" required=""
+                value="{{pant.length}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Brand" id="create-pant-brand" required=""
+                value="{{pant.brand}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Description" id="create-pant-description"
+                required="" value="{{pant.description}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Quantity" id="create-pant-quantity" required=""
+                value="{{pant.quantity}}">
+            <input type="submit" value="{{#if pant.sku}}Update{{else}}Create{{/if}}" data-wait="Please wait..."
+                class="w-users-userformbutton button w-button">
+            <div class="w-users-userformfooter form-card-footer">
+                <a href="/products/pants">Return</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/products/pants.js"></script>

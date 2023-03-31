@@ -1,0 +1,33 @@
+<div class="w-users-useraccountwrapper account-page-wrapper flex-wrap h-full items-stretch" data-wf-user-account="true"
+    data-wf-collection="site.siteUser">
+    <div class="w-full flex justify-center">
+        <div class="w-1/3">
+            <a class="w-users-userformbutton button w-button" href="/products/ties/create">Create Tie</a>
+        </div>
+    </div>
+    {{#each ties as |tie| }}
+    <div class="w-1/4 p-3">
+        <div class="w-users-blockcontent account-card">
+            <div class="w-users-blockheader account-header">
+                <h2 class="heading h3">{{tie.description}}</h2>
+            </div>
+            <div>
+                <div class="account-info-wrapper">
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">SKU: {{tie.sku}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Color: {{tie.color}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Type: {{tie.type}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Quantity: {{tie.quantity}}</h3>
+                    <div class="spacer _24"></div>
+                    <h3 class="field-label no-margin">Brand: {{tie.brand}}</h3>
+                    <div div class="spacer _16"></div>
+                    <a class="w-users-userformbutton button w-button" href="/products/ties/{{tie.sku}}/edit">Edit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

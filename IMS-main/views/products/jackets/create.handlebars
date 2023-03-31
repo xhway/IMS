@@ -1,0 +1,46 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+    <div class="w-users-usersignupformwrapper admin-form-card">
+        <form class="{{#if jacket.sku}}jacket-edit-form{{else}}jacket-create-form{{/if}}">
+            <div class="w-users-userformheader form-card-header">
+                <h2 class="heading h3">
+                    {{#if jacket.sku}}
+                    Update
+                    {{else}}
+                    Create
+                    {{/if}}
+                    jacket</h2>
+            </div>
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Sku" id="create-jacket-sku" {{#if
+                jacket.sku}}disabled{{else}}required="" {{/if}} value="{{jacket.sku}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Color" id="create-jacket-color" required=""
+                value="{{jacket.color}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Fit" id="create-jacket-fit" required=""
+                value="{{jacket.fit}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Chest Size" id="create-jacket-chest-size"
+                required="" value="{{jacket.chest_size}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Arm Length" id="create-jacket-arm-length"
+                required="" value="{{jacket.arm_length}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Brand" id="create-jacket-brand" required=""
+                value="{{jacket.brand}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Description" id="create-jacket-description"
+                required="" value="{{jacket.description}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Quantity" id="create-jacket-quantity" required=""
+                value="{{jacket.quantity}}">
+            <input type="submit" value="{{#if jacket.sku}}Update{{else}}Create{{/if}}" data-wait="Please wait..."
+                class="w-users-userformbutton button w-button">
+            <div class="w-users-userformfooter form-card-footer">
+                <a href="/products/jackets">Return</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/products/jackets.js"></script>

@@ -1,0 +1,35 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+  <a href="/" class="form-page-logo-link w-inline-block">
+    <img src="/images/Screenshot-2023-03-27-at-8.08.27-PM.png" loading="lazy"
+      sizes="(max-width: 479px) 160px, (max-width: 1279px) 190px, 160px"
+      srcset="/images/Screenshot-2023-03-27-at-8.08.27-PM-p-500.png 500w, images/Screenshot-2023-03-27-at-8.08.27-PM.png 730w"
+      alt="" class="form-page-logo">
+  </a>
+  <div class="w-users-userloginformwrapper admin-form-card">
+    <form data-wf-user-form-type="login" data-wf-user-form-redirect="/resources" class="login-form">
+      <div class="w-users-userformheader form-card-header">
+        <h2 class="heading h3">Log in</h2>
+        <p class="paragraph small">Fill in your log in details below.</p>
+      </div>
+      <input type="email" maxlength="256" placeholder="Your email" name="Email" id="email-login"
+        class="text-field w-input" required="" data-wf-user-form-input-type="email">
+      <input type="password" maxlength="256" placeholder="Your password" name="Password" id="password-login"
+        class="text-field w-input" required="" data-wf-user-form-input-type="password">
+      <input type="submit" value="Log In" data-wait="Please wait..." class="w-users-userformbutton button w-button">
+      <div class="w-users-userformfooter form-card-footer">
+        <span>Don&#x27;t have an account?</span>
+        <a href="/singup">Sign Up</a>
+      </div>
+    </form>
+    <div style="display:none" data-wf-user-form-error="true" class="w-users-userformerrorstate form-error w-form-fail">
+      <div class="user-form-error-msg"
+        wf-login-form-general-error-error="We&#x27;re having trouble logging you in. Please try again, or contact us if you continue to have problems."
+        wf-login-form-invalid-email_or_password-error="Invalid email or password. Please try again.">
+        We&#x27;re having trouble logging you in. Please try again, or contact us if you continue to have problems.
+      </div>
+    </div>
+  </div>
+  <a href="reset-password.html" class="below-card-link">Forgot your password?</a>
+</div>
+
+<script src="/js/login.js"></script>

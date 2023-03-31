@@ -1,0 +1,40 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+    <div class="w-users-usersignupformwrapper admin-form-card">
+        <form class="{{#if tie.sku}}tie-edit-form{{else}}tie-create-form{{/if}}">
+            <div class="w-users-userformheader form-card-header">
+                <h2 class="heading h3">
+                    {{#if tie.sku}}
+                    Update
+                    {{else}}
+                    Create
+                    {{/if}}
+                    tie</h2>
+            </div>
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Sku" id="create-tie-sku" {{#if
+                tie.sku}}disabled{{else}}required="" {{/if}} value="{{tie.sku}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Color" id="create-tie-color" required=""
+                value="{{tie.color}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Type" id="create-tie-type" required=""
+                value="{{tie.type}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Brand" id="create-tie-brand" required=""
+                value="{{tie.brand}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Description" id="create-tie-description"
+                required="" value="{{tie.description}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Quantity" id="create-tie-quantity" required=""
+                value="{{tie.quantity}}">
+            <input type="submit" value="{{#if tie.sku}}Update{{else}}Create{{/if}}" data-wait="Please wait..."
+                class="w-users-userformbutton button w-button">
+            <div class="w-users-userformfooter form-card-footer">
+                <a href="/products/ties">Return</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/products/ties.js"></script>

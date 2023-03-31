@@ -1,0 +1,38 @@
+<div class="w-users-useraccountwrapper account-page-wrapper flex-wrap h-full items-stretch" data-wf-user-account="true"
+    data-wf-collection="site.siteUser">
+    <div class="w-full flex justify-center">
+        <div class="w-1/3">
+            <a class="w-users-userformbutton button w-button" href="/products/jackets/create">Create Jacket</a>
+        </div>
+    </div>
+    {{#each jackets as |jacket| }}
+    <div class="w-1/4 p-3">
+        <div class="w-users-blockcontent account-card">
+            <div class="w-users-blockheader account-header">
+                <h2 class="heading h3">{{jacket.description}}</h2>
+            </div>
+            <div>
+                <div class="account-info-wrapper">
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">SKU: {{jacket.sku}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Color: {{jacket.color}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Fit: {{jacket.fit}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Chest Size: {{jacket.chest_size}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Arm Length: {{jacket.arm_length}}</h3>
+                    <div class="spacer _16"></div>
+                    <h3 class="field-label">Quantity: {{jacket.quantity}}</h3>
+                    <div class="spacer _24"></div>
+                    <h3 class="field-label no-margin">Brand: {{jacket.brand}}</h3>
+                    <div div class="spacer _16"></div>
+                    <a class="w-users-userformbutton button w-button"
+                        href="/products/jackets/{{jacket.sku}}/edit">Edit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,40 @@
+<div class="w-users-userformpagewrap full-page-wrapper">
+    <div class="w-users-usersignupformwrapper admin-form-card">
+        <form class="{{#if shoe.sku}}shoe-edit-form{{else}}shoe-create-form{{/if}}">
+            <div class="w-users-userformheader form-card-header">
+                <h2 class="heading h3">
+                    {{#if shoe.sku}}
+                    Update
+                    {{else}}
+                    Create
+                    {{/if}}
+                    shoe</h2>
+            </div>
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Sku" id="create-shoe-sku" {{#if
+                shoe.sku}}disabled{{else}}required="" {{/if}} value="{{shoe.sku}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Color" id="create-shoe-color" required=""
+                value="{{shoe.color}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Size" id="create-shoe-size" required=""
+                value="{{shoe.size}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Brand" id="create-shoe-brand" required=""
+                value="{{shoe.brand}}">
+            <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Description" id="create-shoe-description"
+                required="" value="{{shoe.description}}">
+            <input type="number" class="text-field w-input" maxlength="256" name="" data-name="field"
+                data-wf-user-field="wf-user-field-name" placeholder="Quantity" id="create-shoe-quantity" required=""
+                value="{{shoe.quantity}}">
+            <input type="submit" value="{{#if shoe.sku}}Update{{else}}Create{{/if}}" data-wait="Please wait..."
+                class="w-users-userformbutton button w-button">
+            <div class="w-users-userformfooter form-card-footer">
+                <a href="/products/shoes">Return</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/products/shoes.js"></script>

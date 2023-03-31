@@ -1,0 +1,45 @@
+<div class="w-users-useraccountwrapper account-page-wrapper" data-wf-user-account="true"
+  data-wf-collection="site.siteUser">
+  <div class="w-users-blockcontent account-card">
+    <div class="w-users-blockheader account-header">
+      <h2 class="heading h3">Account Details</h2>
+    </div>
+    <div>
+      <form class="account-info-wrapper" method="post" data-wf-user-form-type="userAccount" onsubmit="return false;">
+        <label class="field-label">Email</label><input type="email" placeholder="" disabled="" name="Email"
+          id="wf-user-account-email" class="text-field w-input w-input-disabled" required=""
+          data-wf-user-form-input-type="email" value="{{email}}">
+        <label for="wf-user-account-name" class="field-label">Name</label>
+        <input type="text" class="text-field w-input" maxlength="256" name="" data-name="field"
+          data-wf-user-field="wf-user-field-name" placeholder="" id="wf-user-account-name" required="" value="{{name}}">
+        <div class="spacer _16"></div>
+        <h3 class="field-label">Password settings</h3>
+        <a href="reset-password.html">Reset password</a>
+        <div class="spacer _24"></div>
+        <h3 class="field-label no-margin">Other settings</h3><label
+          id="w-node-_62b23e3845c1a6d0f6be4e4900000000001b-4a1abe0b" class="w-checkbox checkbox-field"><input
+            type="checkbox" name="Checkbox" id="wf-user-account-accept-communications" data-name="Checkbox" required=""
+            checked="" data-wf-user-field="wf-user-field-accept-communications" class="w-checkbox-input check-box"><span
+            class="checkbox-label w-form-label" for="Checkbox">I consent to receive emails.</span></label><input
+          type="submit" value="Save Changes" data-wait="Saving..."
+          class="w-users-useraccountformsavebutton small-button w-button"><input type="reset" value="Cancel"
+          id="w-node-_62b23e3845c1a6d0f6be4e49000000000020-4a1abe0b"
+          class="w-users-useraccountformcancelbutton small-button light w-button">
+      </form>
+      <div tabindex="-1" id="w-node-_62b23e3845c1a6d0f6be4e49000000000021-4a1abe0b"
+        class="w-users-userformsuccessstate w-form-success">
+        <p>Your account was updated successfully.</p>
+      </div>
+      <div id="w-node-_62b23e3845c1a6d0f6be4e49000000000024-4a1abe0b" style="display:none"
+        data-wf-user-form-error="true" class="w-users-userformerrorstate w-form-fail">
+        <div class="user-form-error-msg"
+          wf-account-update-form-general-error-error="There was an error updating your account. Please try again, or contact us if you continue to have problems.">
+          There was an error updating your account. Please try again, or contact us if you continue to have problems.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="./js/profile.js"></script>

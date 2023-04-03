@@ -5,14 +5,17 @@
 * [What is IMS?](#What is IMS?)
 * [Why choose IMS?](#Why choose IMS?)
 * [License](#license)
-* [Contributing](*Contributing)
-* [Preview](*Preview)
-* [Questions](*Questions)
+* [Contributing](#Contributing)
+* [Preview](#Preview)
+* [Questions](#Questions)
 
 # What is IMS?
+```
 Your best friend when it comes to inventory and stock tracking. The next gen inventory system for your business!
+```
 
 # Why choose IMS?
+```
 -Improved accuracy
 
 -Time saving
@@ -22,6 +25,7 @@ Your best friend when it comes to inventory and stock tracking. The next gen inv
 -Scalability
 
 -Improved producvity
+```
 
 # Preview
  picture of the app when it's done

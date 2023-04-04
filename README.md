@@ -1,6 +1,8 @@
 # IMS
 ## Inventory Management System
 
+https://murmuring-island-49500.herokuapp.com/
+
 ## Table of Contents
 * [What is IMS?](#What is IMS?)
 * [Why choose IMS?](#Why choose IMS?)

@@ -2,6 +2,10 @@
 ## Inventory Management System
 
 https://murmuring-island-49500.herokuapp.com/
+<img width="2432" alt="Screen Shot 2023-04-04 at 3 40 17 PM" src="https://user-images.githubusercontent.com/118576289/229901923-1dd58731-055c-4a5d-b4a5-9a2cadd56783.png">
+<img width="588" alt="Screen Shot 2023-04-04 at 3 41 22 PM" src="https://user-images.githubusercontent.com/118576289/229902108-283c6ffd-c776-4e64-aa86-ea4e8c929087.png">
+
+
 
 ## Table of Contents
 * [What is IMS?](#What is IMS?)

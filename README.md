@@ -26,7 +26,7 @@ Your best friend when it comes to inventory and stock tracking. The next gen inv
 
 -Scalability
 
--Improved producvity
+-Improved productivity
 ```
 
 # Preview
